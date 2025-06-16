@@ -8,12 +8,12 @@ Ce script analyse la relation entre deux métriques importantes de Spotify :
 ## Méthodologie
 
 ### 1. Chargement et Préparation des Données
-- Le script charge le fichier CSV contenant les données des 100 chansons
+- Le script charge le fichier CSV contenant les données des musiques
 - Il gère les particularités du format (guillemets non fermés, JSON multilignes)
 - Les données sont nettoyées et structurées dans un DataFrame pandas
 
 ### 2. Extraction des Séries Temporelles
-- Pour chaque chanson, le script extrait les données de popularité et de streams
+- Pour chaque musique, le script extrait les données de popularité et de streams
 - Les données sont organisées avec les colonnes suivantes :
   - song_id
   - title
